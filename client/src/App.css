@@ -1,0 +1,28 @@
+:root {
+  font-family: sans-serif;
+  color: var(--high-text);
+  --background: #fffcfd;
+  --sub-background: #fff7f8;
+  --el-background: #feeaed;
+  --hover-backgroud: #ffdce1;
+  --active-backgorund: #ffced6;
+  --sub-border: #f8bfc8;
+  --el-border: #efacb8;
+  --hover-border: #e592a3;
+  --solid-background: #e54666;
+  --hover-solidbg: #dc3b5d;
+  --low-text: #ca244d;
+  --high-text: #64172b;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
